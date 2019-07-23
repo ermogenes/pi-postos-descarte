@@ -12,11 +12,11 @@
                     });
     map.addLayer(pois);
 	
-    var pois = new OpenLayers.Layer.Text( "Pilhas",
+    var pois2 = new OpenLayers.Layer.Text( "Pilhas",
                     { location:"./pilhas.txt",
                       projection: map.displayProjection
                     });
-    map.addLayer(pois);
+    map.addLayer(pois2);
 	
     // create layer switcher widget in top right corner of map.
     var layer_switcher= new OpenLayers.Control.LayerSwitcher({});

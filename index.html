@@ -7,13 +7,13 @@
 	map.addLayer(new OpenLayers.Layer.OSM());
        
     var pois = new OpenLayers.Layer.Text( "Remédios",
-                    { location:"./poi.txt",
+                    { location:"./remedios.txt",
                       projection: map.displayProjection
                     });
     map.addLayer(pois);
 	
     var pois = new OpenLayers.Layer.Text( "Pilhas",
-                    { location:"./poi2.txt",
+                    { location:"./pilhas.txt",
                       projection: map.displayProjection
                     });
     map.addLayer(pois);
@@ -27,7 +27,7 @@
             new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
             map.getProjectionObject() // to Spherical Mercator Projection
           );
-    var zoom=13;
+    var zoom=15;
     map.setCenter (lonLat, zoom);  
     
   </script>

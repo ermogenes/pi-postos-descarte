@@ -1,3 +1,3 @@
 lat	lon	title	description	icon	iconSize	iconOffset
--24.181772	-46.7874542	Extra - Itanhaém - Rui Barbosa	Av. Rui Barbosa, 763	Ol_icon_blue_example.png	24,24	0,-24
--24.181772	-46.7874542	Supermercado Saito	R. João Mariano, 162	Ol_icon_blue_example.png	24,24	0,-24
+-46.7816935	-24.1797881	Extra - Itanhaém - Rui Barbosa	Av. Rui Barbosa, 763	Ol_icon_blue_example.png	24,24	0,-24
+-46.7879132	-24.1839224	Supermercado Saito	R. João Mariano, 162	Ol_icon_blue_example.png	24,24	0,-24
